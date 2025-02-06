@@ -145,6 +145,8 @@ extension Defaults.Keys {
         "EZConfiguration_kForceGetSelectedTextTypeKey",
         default: .menuBarActionCopy
     )
+
+    static let siliconFlowAPIKey = Key<String>("siliconFlowAPIKey", default: "")
 }
 
 extension Defaults.Keys {
